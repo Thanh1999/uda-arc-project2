@@ -1,0 +1,27 @@
+Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,6019.16,72229.92,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,VPN Connection,0,567,6804,USD,,"Working days per month (22), Number of subnet associations (4)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,33.08,396.96,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,24.382,292.58,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 2), Advance EC2 instance (t4g.medium), Pricing strategy (Compute Savings Plans 3 Year  None upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,23.944,287.33,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 2), Advance EC2 instance (c6g.medium), Pricing strategy (Compute Savings Plans 3 Year  None upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,23,276,USD,,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,,
+My Estimate,US East (N. Virginia),,Amazon RDS Custom for SQL Server,0,4390.96,52691.52,USD,,"Storage for each RDS Custom for SQL Server instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (db.r5.2xlarge), Number of RDS Custom for SQL Server instances (2), Utilization (On-Demand only) (100 %Utilized/Month), Database edition (Enterprise), Deployment option (Multi-AZ), License (Customer-provided), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,500.05,6000.6,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,456.75,5481,USD,,"Hosted Zones (1), Additional Records in Hosted Zones (1), Basic Checks Within AWS (10), Number of Elastic Network Interfaces (5)"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Change RDS SQL Server instance from db.r5.xlarge to db.r5.2xlarge,,,,,,,,,
+Change Route 53  Number of Elastic Network Interfaces from 10 to 5,,,,,,,,,
